@@ -40,7 +40,7 @@ STARTUP_CONTENT="false"
 
 # Oh-my-zsh enabled plugins
 plugins=(
-add-to-omz alias-finder autojump
+add-to-omz alias-finder
 colored-man-pages colorize
 common-aliases conda-zsh-completion
 cp docker extract fzf
@@ -81,3 +81,4 @@ source $ZSH/oh-my-zsh.sh
 [[ -o interactive && -f $ZDOTDIR/functions ]] && {
     [[ "$STARTUP_CONTENT" = "true" ]] && sinfo || neofetch
 }
+

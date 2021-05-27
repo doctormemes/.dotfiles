@@ -74,6 +74,7 @@ if (( $+commands[conda] )); then
 fi
 
 # ip info aliases and other system aliases
+alias sync-time='sudo ntpd ntp.ubuntu.com'
 alias extip='curl https://ipecho.net/plain; echo'
 alias intip='hostname -I; echo'
 alias shutdown='sudo shutdown now'
